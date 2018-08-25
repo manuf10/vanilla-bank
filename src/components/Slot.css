@@ -1,0 +1,564 @@
+.item-medium {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+}
+
+.item-medium .icon-img {
+    width: 36px;
+    height: 36px;
+    left: 4px;
+    top: 4px;
+    position: relative;
+    z-index: -1;
+}
+
+.border-medium, .border-medium-hi {
+    background-image: url('/imgs/borders_medium.png');
+    background-repeat: no-repeat;
+}
+
+.border-medium-hi {
+    background-position: -44px 0px;
+}
+
+.item-medium .item-count {
+    /* font-family: "'Lato'"; */
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-stretch: condensed;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    /* http://owumaro.github.io/text-stroke-generator/ */
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+    position: absolute;
+    bottom: 4px;
+    right: 7px;
+    pointer-events: none;
+}
+
+
+/* ------------------- Slots  ------------------- */
+
+
+div[class^='slot-'] {
+    position: relative;
+}
+
+/* Column 0 */
+
+.slot-0-0 {
+    top: 116px;
+    left: 29px;
+}
+
+.slot-0-1 {
+    top: 161px;
+    left: 29px;
+}
+
+.slot-0-2 {
+    top: 205px;
+    left: 29px;
+}
+
+.slot-0-3 {
+    top: 250px;
+    left: 29px;
+}
+
+.slot-0-4 {
+    top: 295px;
+    left: 29px;
+}
+
+.slot-0-5 {
+    top: 339px;
+    left: 29px;
+}
+
+.slot-0-6 {
+    top: 384px;
+    left: 29px;
+}
+
+/* Column 1 */
+
+.slot-1-0 {
+    top: 116px;
+    left: 78px;
+}
+
+.slot-1-1 {
+    top: 161px;
+    left: 78px;
+}
+
+.slot-1-2 {
+    top: 205px;
+    left: 78px;
+}
+
+.slot-1-3 {
+    top: 250px;
+    left: 78px;
+}
+
+.slot-1-4 {
+    top: 295px;
+    left: 78px;
+}
+
+.slot-1-5 {
+    top: 339px;
+    left: 78px;
+}
+
+.slot-1-6 {
+    top: 384px;
+    left: 78px;
+}
+
+/* Column 2 */
+
+.slot-2-0 {
+    top: 116px;
+    left: 129px;
+}
+
+.slot-2-1 {
+    top: 161px;
+    left: 129px;
+}
+
+.slot-2-2 {
+    top: 205px;
+    left: 129px;
+}
+
+.slot-2-3 {
+    top: 250px;
+    left: 129px;
+}
+
+.slot-2-4 {
+    top: 295px;
+    left: 129px;
+}
+
+.slot-2-5 {
+    top: 339px;
+    left: 129px;
+}
+
+.slot-2-6 {
+    top: 384px;
+    left: 129px;
+}
+
+/* Column 3 */
+
+.slot-3-0 {
+    top: 116px;
+    left: 179px;
+}
+
+.slot-3-1 {
+    top: 161px;
+    left: 179px;
+}
+
+.slot-3-2 {
+    top: 205px;
+    left: 179px;
+}
+
+.slot-3-3 {
+    top: 250px;
+    left: 179px;
+}
+
+.slot-3-4 {
+    top: 295px;
+    left: 179px;
+}
+
+.slot-3-5 {
+    top: 339px;
+    left: 179px;
+}
+
+.slot-3-6 {
+    top: 384px;
+    left: 179px;
+}
+
+/* Column 4 */
+
+.slot-4-0 {
+    top: 116px;
+    left: 228px;
+}
+
+.slot-4-1 {
+    top: 161px;
+    left: 228px;
+}
+
+.slot-4-2 {
+    top: 205px;
+    left: 228px;
+}
+
+.slot-4-3 {
+    top: 250px;
+    left: 228px;
+}
+
+.slot-4-4 {
+    top: 295px;
+    left: 228px;
+}
+
+.slot-4-5 {
+    top: 339px;
+    left: 228px;
+}
+
+.slot-4-6 {
+    top: 384px;
+    left: 228px;
+}
+
+/* Column 5 */
+
+.slot-5-0 {
+    top: 116px;
+    left: 278px;
+}
+
+.slot-5-1 {
+    top: 161px;
+    left: 278px;
+}
+
+.slot-5-2 {
+    top: 205px;
+    left: 278px;
+}
+
+.slot-5-3 {
+    top: 250px;
+    left: 278px;
+}
+
+.slot-5-4 {
+    top: 295px;
+    left: 278px;
+}
+
+.slot-5-5 {
+    top: 339px;
+    left: 278px;
+}
+
+.slot-5-6 {
+    top: 384px;
+    left: 278px;
+}
+
+/* Column 6 */
+
+.slot-6-0 {
+    top: 116px;
+    left: 329px;
+}
+
+.slot-6-1 {
+    top: 161px;
+    left: 329px;
+}
+
+.slot-6-2 {
+    top: 205px;
+    left: 329px;
+}
+
+.slot-6-3 {
+    top: 250px;
+    left: 329px;
+}
+
+.slot-6-4 {
+    top: 295px;
+    left: 329px;
+}
+
+.slot-6-5 {
+    top: 339px;
+    left: 329px;
+}
+
+.slot-6-6 {
+    top: 384px;
+    left: 329px;
+}
+
+/* Column 7 */
+
+.slot-7-0 {
+    top: 116px;
+    left: 379px;
+}
+
+.slot-7-1 {
+    top: 161px;
+    left: 379px;
+}
+
+.slot-7-2 {
+    top: 205px;
+    left: 379px;
+}
+
+.slot-7-3 {
+    top: 250px;
+    left: 379px;
+}
+
+.slot-7-4 {
+    top: 295px;
+    left: 379px;
+}
+
+.slot-7-5 {
+    top: 339px;
+    left: 379px;
+}
+
+.slot-7-6 {
+    top: 384px;
+    left: 379px;
+}
+
+/* Column 8 */
+
+.slot-8-0 {
+    top: 116px;
+    left: 428px;
+}
+
+.slot-8-1 {
+    top: 161px;
+    left: 428px;
+}
+
+.slot-8-2 {
+    top: 205px;
+    left: 428px;
+}
+
+.slot-8-3 {
+    top: 250px;
+    left: 428px;
+}
+
+.slot-8-4 {
+    top: 295px;
+    left: 428px;
+}
+
+.slot-8-5 {
+    top: 339px;
+    left: 428px;
+}
+
+.slot-8-6 {
+    top: 384px;
+    left: 428px;
+}
+
+/* Column 9 */
+
+.slot-9-0 {
+    top: 116px;
+    left: 478px;
+}
+
+.slot-9-1 {
+    top: 161px;
+    left: 478px;
+}
+
+.slot-9-2 {
+    top: 205px;
+    left: 478px;
+}
+
+.slot-9-3 {
+    top: 250px;
+    left: 478px;
+}
+
+.slot-9-4 {
+    top: 295px;
+    left: 478px;
+}
+
+.slot-9-5 {
+    top: 339px;
+    left: 478px;
+}
+
+.slot-9-6 {
+    top: 384px;
+    left: 478px;
+}
+
+/* Column 10 */
+
+.slot-10-0 {
+    top: 116px;
+    left: 529px;
+}
+
+.slot-10-1 {
+    top: 161px;
+    left: 529px;
+}
+
+.slot-10-2 {
+    top: 205px;
+    left: 529px;
+}
+
+.slot-10-3 {
+    top: 250px;
+    left: 529px;
+}
+
+.slot-10-4 {
+    top: 295px;
+    left: 529px;
+}
+
+.slot-10-5 {
+    top: 339px;
+    left: 529px;
+}
+
+.slot-10-6 {
+    top: 384px;
+    left: 529px;
+}
+
+/* Column 11 */
+
+.slot-11-0 {
+    top: 116px;
+    left: 579px;
+}
+
+.slot-11-1 {
+    top: 161px;
+    left: 579px;
+}
+
+.slot-11-2 {
+    top: 205px;
+    left: 579px;
+}
+
+.slot-11-3 {
+    top: 250px;
+    left: 579px;
+}
+
+.slot-11-4 {
+    top: 295px;
+    left: 579px;
+}
+
+.slot-11-5 {
+    top: 339px;
+    left: 579px;
+}
+
+.slot-11-6 {
+    top: 384px;
+    left: 579px;
+}
+
+/* Column 12 */
+
+.slot-12-0 {
+    top: 116px;
+    left: 630px;
+}
+
+.slot-12-1 {
+    top: 161px;
+    left: 630px;
+}
+
+.slot-12-2 {
+    top: 205px;
+    left: 630px;
+}
+
+.slot-12-3 {
+    top: 250px;
+    left: 630px;
+}
+
+.slot-12-4 {
+    top: 295px;
+    left: 630px;
+}
+
+.slot-12-5 {
+    top: 339px;
+    left: 630px;
+}
+
+.slot-12-6 {
+    top: 384px;
+    left: 630px;
+}
+
+/* Column 13 */
+
+.slot-13-0 {
+    top: 116px;
+    left: 680px;
+}
+
+.slot-13-1 {
+    top: 161px;
+    left: 680px;
+}
+
+.slot-13-2 {
+    top: 205px;
+    left: 680px;
+}
+
+.slot-13-3 {
+    top: 250px;
+    left: 680px;
+}
+
+.slot-13-4 {
+    top: 295px;
+    left: 680px;
+}
+
+.slot-13-5 {
+    top: 339px;
+    left: 680px;
+}
+
+.slot-13-6 {
+    top: 384px;
+    left: 680px;
+}

@@ -1,0 +1,16 @@
+.bank-container {
+    width: 746px;
+    height: 491px;
+    z-index: -6;
+    margin: 0 auto;
+}
+
+span {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#bank-img {
+    position: absolute;
+    z-index: -2;
+}
