@@ -4,7 +4,7 @@ import './Tab.css';
 class Tab extends Component {
     render() {
         return (
-            <div className="tabs">
+            <div className="tabs unselectable">
                 <div className="other">
                     <img src="/imgs/tab_add.png" alt="tab" />
                 </div>

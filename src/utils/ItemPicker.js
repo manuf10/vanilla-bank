@@ -1,5 +1,3 @@
-// const maxStock = 1999;
-// class ItemPicker {
 export function getRandomImage() {
     let randomInt = Math.floor(Math.random() * Math.floor(iconsList.length));
     return iconsList[randomInt];
@@ -7,7 +5,6 @@ export function getRandomImage() {
 export function getRandomStock() {
     return Math.floor(Math.random() * Math.floor(1999)) + 1;
 }
-// }
 
 const iconsList = [
     "inv_alchemy_leadedvial.jpg",
