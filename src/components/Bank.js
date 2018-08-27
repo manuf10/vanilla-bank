@@ -5,16 +5,12 @@ import Tab from './Tab.js';
 import * as ItemPicker from '../utils/ItemPicker';
 
 class Bank extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { name: 'Nomasdasdbrecito' };
-    }
-    
     createSlots() {
         let slots = [];
         for (let col = 0; col < 14; col++) {
             for (let row = 0; row < 7; row++) {
-                slots.push(<Slot col={col} row={row} icon={ItemPicker.getRandomImage()} stock={ItemPicker.getRandomStock()} />);
+                if (ItemPicker.getRandomStock() % 4 === 2)
+                    slots.push(<Slot key={`${col}${row}`} id={ItemPicker.getRandomId()} col={col} row={row} icon={ItemPicker.getRandomImage()} stock={ItemPicker.getRandomStock()} />);
             }
         }
         return slots;
@@ -22,6 +18,10 @@ class Bank extends Component {
 
     createTabs() {
         return <Tab />;
+    }
+
+    componentDidMount() {
+        
     }
 
     render() {

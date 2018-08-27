@@ -6,8 +6,9 @@ import Bank from '../components/Bank.js';
 class App extends Component {
   render() {
     return (
-      <div className="">
-        <Bank guildName=""/>
+      <div id="page-container">
+          <header>Vanilla Bank</header>
+          <Bank guildName=""/>
       </div>
     );
   }

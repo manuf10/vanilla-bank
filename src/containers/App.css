@@ -1,0 +1,11 @@
+#page-container {
+    margin-top: 60px;
+}
+
+#page-container header {
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+    font-size: 38px;
+    text-shadow: 2px 1px 8px rgba(0,0,0, 1);
+}
