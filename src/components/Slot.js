@@ -27,7 +27,7 @@ class Slot extends Component {
             <div className={`slot-${this.props.col}-${this.props.row} unselectable`}>
                 <div className={slotClass} onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
                     <a href={`?item=${this.props.id}`}>
-                    <img className="icon-img" src={"/imgs/icons/medium/" + this.props.icon} alt="icon"/>
+                    <img className="icon-img" src={"/imgs/icons/medium/" + this.props.icon} alt=""/>
                     <span className="item-count">{this.props.stock}</span>
                     </a>
                 </div>

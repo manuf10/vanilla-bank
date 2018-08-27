@@ -1775,8 +1775,7 @@ var $WowheadPower = new
                 }
             }
 
-            //var P = "https://classicdb.ch/ajax.php?" + p[W][1] + "=" + S + "&power" + R;
-            var P = "http://localhost:5000/api/items/" + S + "/tooltip" + R;
+            var P = "/api/items/" + S + "/tooltip" + R;
             
             g_ajaxIshRequest(P)
         }
