@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -15,5 +16,14 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:80"
+  "proxy": {
+    "/api": {
+      "target": "https://www.vanillabank.tk",
+      "secure": false
+    },
+    "/imgs": {
+      "target": "https://www.vanillabank.tk",
+      "secure": false
+    }
+  }
 }

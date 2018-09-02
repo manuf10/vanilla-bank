@@ -1775,7 +1775,7 @@ var $WowheadPower = new
                 }
             }
 
-            var P = "/api/items/" + S + "/tooltip" + R;
+            var P = "https://www.vanillabank.tk/api/items/" + S + "/tooltip" + R;
             
             g_ajaxIshRequest(P)
         }
@@ -1825,7 +1825,7 @@ var $WowheadPower = new
                 Tooltip.setIcon(null);
                 Tooltip.show(J, R)
             } else {
-                Tooltip.setIcon(S);
+                // Tooltip.setIcon(S);
                 Tooltip.showAtXY(R, B, z, o, x)
             }
         }
