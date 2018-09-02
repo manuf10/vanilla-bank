@@ -39,6 +39,11 @@
 
 /* ------------------- Slots  ------------------- */
 
+.parent-size {
+    width: 44px;
+    height: 44px;
+    display: block;
+}
 
 div[class^='slot-'] {
     position: relative;

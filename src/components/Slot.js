@@ -37,10 +37,10 @@ class Slot extends Component {
         return (
             <div className={`slot-${this.props.col}-${this.props.row} unselectable`}>
                 <div className={slotClass} onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
-                    <a href={`?item=${this.props.id}`}>
-                    {/* <img className="icon-img" src={"/imgs/icons/medium/" + this.props.icon} alt=""/> */}
-                    <img className="icon-img" src={`/imgs/icons/medium/${this.state.icon}.jpg`} alt=""/>
-                    <span className="item-count">{this.props.stock}</span>
+                    <a class="parent-size" href={`?item=${this.props.id}`}>
+                        {/* <img className="icon-img" src={"/imgs/icons/medium/" + this.props.icon} alt=""/> */}
+                        <img className="icon-img" src={`/imgs/icons/medium/${this.state.icon}.jpg`} alt=""/>
+                        <span className="item-count">{this.props.stock}</span>
                     </a>
                 </div>
             </div>
