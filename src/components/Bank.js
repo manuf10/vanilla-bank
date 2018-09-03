@@ -18,9 +18,11 @@ class Bank extends Component {
         let slots = [];
         for (let col = 0; col < 14; col++) {
             for (let row = 0; row < 7; row++) {
-                //if (ItemPicker.getRandomStock() % 4 === 2)
-                if (col <= 4)
+                if (ItemPicker.getRandomStock() % 4 === 2)
+                //if (col <= 4)
                     slots.push(<Slot key={`${col}${row}`} id={ItemPicker.getRandomId()} col={col} row={row} stock={this.state.stock} />);
+                else
+                    slots.push(<Slot key={`${col}${row}`} id='' col={col} row={row} stock='' />);
             }
         }
         return slots;
