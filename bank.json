@@ -1,13 +1,21 @@
 {
+    "guild_id": "",
+    "guild_name": "",
+    "creator_id": "",
     "tabs": [
         {
             "name": "_",
             "icon": "_",
-            "slots": {
-                "columns": [
-                    
+            "slots": [
+                [ 
+                    {
+                        "id": "_",
+                        "icon": "_",
+                        "icon_format": "_",
+                        "stock": "_"
+                    }
                 ]
-            }
+            ]
         }
     ]
 }

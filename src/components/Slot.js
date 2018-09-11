@@ -3,24 +3,19 @@ import './Slot.css';
 import classNames from 'classnames';
 import axios from 'axios';
 
-class Slot extends Component {
+import PropTypes from 'prop-types';
+
+export default class Slot extends Component {
     constructor(props) {
         super(props);
-        this.state = { isHovered: false, stock: 0, icon: props.id != '' ? 'inv_misc_questionmark' : '' };
-        this.handleHover = this.handleHover.bind(this);
-    }
-
-    handleHover(){
-        this.setState({
-            isHovered: !this.state.isHovered
-        });
+        this.state = { isHovered: false, stock: 0, icon: props.id ? 'inv_misc_questionmark' : '' };
     }
 
     componentDidMount() {
-        if (this.props.id != '') {
+        if (this.props.id) {
             axios.get(`/api/items/${this.props.id}/icon`)
             .then(res => {
-              this.setState({ icon: res.data });
+              this.setState({ icon: res.data });    
             })
             .catch(function(error) {
                 console.log(`Request failed for item #${this.props.id} icon.`);
@@ -35,7 +30,9 @@ class Slot extends Component {
             'border-medium-hi': this.state.isHovered,
         });
 
-        if (this.props.id !== '') {
+        //this.props.full ? console.log("si", this.props.id) : console.log("no");
+
+        if (this.props.id) {
             return (
                 <div className={`slot-${this.props.col}-${this.props.row} unselectable`}>
                     <div className={slotClass} onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
@@ -51,5 +48,3 @@ class Slot extends Component {
         }
     }
 }
-
- export default Slot;
