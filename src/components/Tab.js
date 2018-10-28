@@ -6,7 +6,7 @@ class Tab extends Component {
         return (
             <div className="tabs unselectable">
                 <div className="other">
-                    <img src="/tab_add.png" alt="tab" />
+                    <img src="/imgs/tab_add.png" alt="tab" />
                 </div>
             </div>
         );

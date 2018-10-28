@@ -1,15 +1,19 @@
-export function getRandomImage() {
-    let randomInt = Math.floor(Math.random() * Math.floor(iconsList.length));
-    return iconsList[randomInt];
-}
-export function getRandomStock() {
-    return Math.floor(Math.random() * Math.floor(1999)) + 1;
+class ItemPicker {
+    getRandomImage() {
+        let randomInt = Math.floor(Math.random() * Math.floor(iconsList.length));
+        return iconsList[randomInt];
+    }
+    getRandomStock() {
+        return Math.floor(Math.random() * Math.floor(1999)) + 1;
+    }
+    
+    getRandomId() {
+        let randomInt = Math.floor(Math.random() * Math.floor(ids.length));
+        return ids[randomInt];
+    }
 }
 
-export function getRandomId() {
-    let randomInt = Math.floor(Math.random() * Math.floor(ids.length));
-    return ids[randomInt];
-}
+module.exports = new ItemPicker();
 
 const iconsList = [
     "inv_alchemy_leadedvial.jpg",

@@ -132,7 +132,7 @@
 
 .tooltip td,
 .tooltip th {
-    background: url(/tooltip.png);
+    background: url(/imgs/tooltip.png);
     font-family: Verdana, sans-serif;
     font-size: 12px;
     line-height: 17px;
@@ -276,13 +276,13 @@
 .iconsmall del {
     width: 26px;
     height: 26px;
-    background-image: url(/icon_border_small.png);
+    background-image: url(/imgs/icon_border_small.png);
 }
 
 .iconlarge del {
     width: 68px;
     height: 68px;
-    background-image: url(/icon_border_large.png);
+    background-image: url(/imgs/icon_border_large.png);
 }
 
 .iconsmall a,
@@ -298,19 +298,19 @@
 .iconsmall a {
     width: 20px;
     height: 20px;
-    background: url(/icon_hilite_small.png) no-repeat 20px 0;
+    background: url(/imgs/icon_hilite_small.png) no-repeat 20px 0;
 }
 
 .iconmedium a {
     width: 38px;
     height: 38px;
-    background: url(/icon_hilite_medium_new.png) no-repeat 38px 0;
+    background: url(/imgs/icon_hilite_medium_new.png) no-repeat 38px 0;
 }
 
 .iconlarge a {
     width: 62px;
     height: 62px;
-    background: url(/icon_hilite_large.png) no-repeat 62px 0;
+    background: url(/imgs/icon_hilite_large.png) no-repeat 62px 0;
 }
 
 .iconsmall .glow,
@@ -338,7 +338,7 @@
 }
 
 .iconmedium-gold del {
-    background-image: url(/icon_border_medium_gold.png);
+    background-image: url(/imgs/icon_border_medium_gold.png);
 }
 
 .iconmedium-gold a {
@@ -350,7 +350,7 @@
 .tooltip p div {
     width: 44px;
     height: 44px;
-    background-image: url(/icon_border_medium.png);
+    background-image: url(/imgs/icon_border_medium.png);
 }
 
 .iconsmall,

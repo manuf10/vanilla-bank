@@ -1,5 +1,3 @@
-//Wää suck something
-
 function $(c) {
     if (arguments.length > 1) {
         var b = [];

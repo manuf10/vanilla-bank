@@ -9,8 +9,10 @@
     "react-dnd": "^5.0.0",
     "react-dnd-html5-backend": "^5.0.1",
     "react-dom": "^16.4.2",
+    "react-draggable": "^3.0.5",
     "react-scripts": "1.1.4",
-    "react-simple-flex-grid": "^1.2.3"
+    "react-simple-flex-grid": "^1.2.3",
+    "socket.io-client": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
