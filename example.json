@@ -1,0 +1,164 @@
+{
+    "guild_id": "b32c03m352",
+    "guild_name": "Wipe",
+    "guild_owner": "@sabio",
+    "tabs": [
+        {
+            "name": "General",
+            "icon": "inv_ammo_bullet_02.jpg",
+            "slots": [
+                {},
+                {
+                    "id": "20552",
+                    "icon": "inv_misc_note_05",
+                    "stock": 102
+                },
+                {},
+                {},
+                {},
+                {
+                    "id": "828",
+                    "icon": "inv_misc_bag_09_blue",
+                    "stock": 106
+                },
+                {},
+                {
+                    "id": "5319",
+                    "icon": "inv_shoulder_07",
+                    "stock": 165
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "id": "21983",
+                    "icon": "inv_brd_banner",
+                    "stock": 138
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "id": "15995",
+                    "icon": "inv_weapon_rifle_07",
+                    "stock": 26
+                },
+                {},
+                {
+                    "id": "15804",
+                    "icon": "inv_misc_cape_18",
+                    "stock": 132
+                },
+                {
+                    "id": "3048",
+                    "icon": "inv_pants_03",
+                    "stock": 62
+                },
+                {},
+                {},
+                {
+                    "id": "22106",
+                    "icon": "inv_belt_15",
+                    "stock": 45
+                },
+                {},
+                {
+                    "id": "15382",
+                    "icon": "inv_misc_cape_18",
+                    "stock": 129
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "id": "13083",
+                    "icon": "inv_shield_05",
+                    "stock": 156
+                },
+                {
+                    "id": "3073",
+                    "icon": "inv_pants_06",
+                    "stock": 91
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "id": "14202",
+                    "icon": "inv_shirt_07",
+                    "stock": 111
+                },
+                {
+                    "id": "14539",
+                    "icon": "inv_helmet_14",
+                    "stock": 4
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                    "id": "15737",
+                    "icon": "inv_scroll_06",
+                    "stock": 74
+                },
+                {},
+                {
+                    "id": "18645",
+                    "icon": "inv_misc_enggizmos_01",
+                    "stock": 182
+                },
+                {}
+            ]
+        }
+    ]
+}

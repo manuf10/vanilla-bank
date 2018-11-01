@@ -4,11 +4,11 @@ import './Tab.css';
 class Tab extends Component {
     render() {
         return (
-            <div className="tabs unselectable">
-                <div className="other">
-                    <img src="/imgs/tab_add.png" alt="tab" />
+            <React.Fragment>
+                <div className="tab">
+                
                 </div>
-            </div>
+            </React.Fragment>
         );
     }
 }

@@ -6,6 +6,7 @@ import ItemPicker from '../utils/ItemPicker';
 import * as BankGenerator from '../utils/BankGenerator';
 import axios from 'axios';
 import socketClient from 'socket.io-client';
+import TabSet from './TabSet';
 
 const socket = socketClient('http://localhost:3333');
 
@@ -60,9 +61,9 @@ class Bank extends Component {
         this.setState({ slots: this.createSlotsTable() });
     }
 
-    createTabs() {
-        return <Tab />;
-    }
+    // createTabs() {
+    //     return [<React.Fragment><Tab></Tab><Tab></Tab></React.Fragment>];
+    // }
 
     render() {
         return (
@@ -70,7 +71,7 @@ class Bank extends Component {
                 <input type="button" value="Refresh" onClick={this.refreshTable}/>
                 <div className="bank-container">
                     <img id="bank-img" src="/imgs/bank.png" alt="Bank" />
-                    {this.createTabs()}
+                    <TabSet></TabSet>
                     {this.createSlots()}
                 </div>
             </React.Fragment>
