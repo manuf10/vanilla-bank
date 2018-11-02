@@ -14,3 +14,12 @@ span {
     position: absolute;
     z-index: -2;
 }
+
+.guild-name {
+    font-size: 28px;
+    font-family: 'Lato';
+    text-align: center;
+    display: block;
+    color: yellow;
+    margin-top: 30px;
+}

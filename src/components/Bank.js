@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Bank.css'
 import Slot from './Slot.js';
-import Tab from './Tab.js';
 import ItemPicker from '../utils/ItemPicker';
 import * as BankGenerator from '../utils/BankGenerator';
 import axios from 'axios';
@@ -33,19 +32,12 @@ class Bank extends Component {
         for (let col = 0; col < 14; col++) {
             for (let row = 0; row < 7; row++) {
                 slots.push(<Slot key={`${col}${row}`} item={this.state.slots[row][col]} col={col} row={row} disabled={false}/>);
-                // if (ItemPicker.getRandomStock() % 4 === 2)
-                //if (col <= 4)
-                    // slots.push(<Slot full key={`${col}${row}`} id={ItemPicker.getRandomId()} col={col} row={row} stock={this.state.stock} />);
-                // else
-                //     slots.push(<Slot key={`${col}${row}`} col={col} row={row} stock='' />);
             }
         }
         return slots;
-        
     }
 
     createSlotsTable() {
-        // this.setState((state) => ({ stock: state.stock + 1 }))
         let newSlots = [];
         for (let row = 0; row < 7; row++) {
             let newRow = [];
@@ -61,15 +53,11 @@ class Bank extends Component {
         this.setState({ slots: this.createSlotsTable() });
     }
 
-    // createTabs() {
-    //     return [<React.Fragment><Tab></Tab><Tab></Tab></React.Fragment>];
-    // }
-
     render() {
         return (
             <React.Fragment>
-                <input type="button" value="Refresh" onClick={this.refreshTable}/>
-                <div className="bank-container">
+                <span class="guild-name">{'<Hola>'}</span>
+                <div className="bank-container unselectable">
                     <img id="bank-img" src="/imgs/bank.png" alt="Bank" />
                     <TabSet></TabSet>
                     {this.createSlots()}

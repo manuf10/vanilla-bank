@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div id="page-container">
           <header>Vanilla Bank</header>
-          <Bank guildName=""/>
+          <Bank/>
       </div>
     );
   }
