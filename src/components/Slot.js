@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Slot.css';
 import classNames from 'classnames';
-import axios from 'axios';
 
 export default class Slot extends Component {
     constructor(props) {

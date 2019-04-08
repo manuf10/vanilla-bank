@@ -3,11 +3,7 @@ import './Bank.css'
 import Slot from './Slot.js';
 import ItemPicker from '../utils/ItemPicker';
 import * as BankGenerator from '../utils/BankGenerator';
-import axios from 'axios';
-import socketClient from 'socket.io-client';
 import TabSet from './TabSet';
-
-const socket = socketClient('http://localhost:3333');
 
 class Bank extends Component {
     constructor(props) {
@@ -18,13 +14,6 @@ class Bank extends Component {
             id: ItemPicker.getRandomId(),
             slots: this.createSlotsTable()
         };
-    }
-
-    componentDidMount() {
-        socket.emit('wtfevent', 'hola');
-        socket.on('chat', (message) => {
-            console.log(message);
-        });
     }
 
     createSlots() {
@@ -56,7 +45,7 @@ class Bank extends Component {
     render() {
         return (
             <React.Fragment>
-                <span class="guild-name">{'<Hola>'}</span>
+                <span class="guild-name">{'<Guild Name>'}</span>
                 <div className="bank-container unselectable">
                     <img id="bank-img" src="/imgs/bank.png" alt="Bank" />
                     <TabSet></TabSet>
